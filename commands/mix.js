@@ -31,7 +31,7 @@ module.exports = async ({ sock, msg, text, reply, from }) => {
     // ✅ تحويلها إلى ملصق
     const sticker = new Sticker(imgBuffer, {
       pack: 'Emoji Fusion',
-      author: 'طرزان الواقدي',
+      author: 'ايتاشي ',
       type: StickerTypes.FULL,
       quality: 100
     });
