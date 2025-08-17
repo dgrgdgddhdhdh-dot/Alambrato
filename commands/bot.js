@@ -5,7 +5,7 @@ const userSessions = {};
 
 module.exports = {
   name: "talk",
-  alias: ["تحدث", "ايتاشي"],
+  alias: ["بوت", "ايتاشي"],
   category: "ai",
   desc: "تفعيل المحادثة الذكية مع ايتاشي",
   async run({ sock, m, text, reply }) {
